@@ -1,3 +1,5 @@
+
+
 import { Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -6,13 +8,13 @@ import { Entrys } from '../model/entrys';
 import { async } from '@angular/core/testing';
 import { AngularFireStorage } from '@angular/fire/storage';
 
-
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-allarticles',
+  templateUrl: './allarticles.component.html',
+  styleUrls: ['./allarticles.component.css']
 })
-export class HomeComponent implements OnInit {
+
+export class AllarticlesComponent implements OnInit {
 
   public p: string;
 
